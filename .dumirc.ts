@@ -16,7 +16,6 @@ export default defineConfig({
   theme: {
     '@c-primary': '#e5743f',
   },
-  publicPath: '/',
   analytics: {
     // TODO 配置 Google Analytics 代码
     // ga_v2: '',
