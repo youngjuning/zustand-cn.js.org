@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A static site based on dumi",
   "scripts": {
-    "preinstall": "npx patch-package",
+    "postinstall": "npx patch-package",
     "start": "npm run dev",
     "dev": "dumi dev",
     "build": "dumi build",
