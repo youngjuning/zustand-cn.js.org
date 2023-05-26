@@ -16,10 +16,7 @@ export default defineConfig({
   theme: {
     '@c-primary': '#e5743f',
   },
-  publicPath:
-    process.env.NODE_ENV === 'production'
-      ? 'https://cdn.jsdelivr.net/gh/youngjuning/zustand.js.org@gh-pages/'
-      : '/',
+  publicPath: '/',
   analytics: {
     // TODO 配置 Google Analytics 代码
     // ga_v2: '',
