@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zustand.js.org/sitemap.xml
