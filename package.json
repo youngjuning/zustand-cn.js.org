@@ -1,0 +1,18 @@
+{
+  "name": "dumi-site-template",
+  "version": "0.0.1",
+  "description": "A static site based on dumi",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "dumi dev",
+    "build": "dumi build",
+    "prepare": "dumi setup"
+  },
+  "authors": [
+    "luozhu2021@gmail.com"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "dumi": "^2.2.0"
+  }
+}
