@@ -88,6 +88,11 @@ const DocLayout: FC = () => {
       <main>
         {showSidebar && <Sidebar />}
         <Content>
+          <div className='markdown' style={{ marginBottom: '18px'}}>
+            <center>
+              <a href="https://cloud.tencent.com/act/cps/redirect?redirect=1040&cps_key=ea8068199c73a836ffe37e4ea4c2ddee&from=console" nofollow alt="腾讯云新客专属福利" target="_blank">腾讯云新客专属福利</a> | <a href="https://www.cnouyi.careers/join/54171828" nofollow alt="欧易高返佣注册链接（加密货币）" target="_blank">欧易高返佣注册链接 - 买卖加密货币</a> | <a href="https://sockboom.shop/auth/register?affid=552052" nofollow alt="SockBoom 稳定科学上网梯子" target="_blank">SockBoom 稳定的科学上网梯子</a> | <a href="https://youngjuning.js.org/categories/Google/Adsense/" nofollow alt="博客变现">博客变现</a> | <a href="http://www.12348.gov.cn/#/homepage" nofollow alt="中国法律服务网" target="_blank">中国法律服务网</a>
+            </center>
+          </div>
           {outlet}
           {/* <Adsense
             className="adsbygoogle"
