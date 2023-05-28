@@ -12,7 +12,7 @@ export default defineConfig({
       twitter: 'https://twitter.com/luozhu2021'
     },
     hd: { rules: [] },
-    footer: 'Made with ❤️ by <a href="https://github.com/youngjuning" target="_blank" nofollow>@洛竹</a>'
+    footer: 'Made with ❤️ by <a href="https://youngjuning.js.org" target="_blank" nofollow>@洛竹</a>'
   },
   theme: {
     '@c-primary': '#e5743f',
