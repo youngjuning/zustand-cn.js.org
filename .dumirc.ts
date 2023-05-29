@@ -8,7 +8,7 @@ export default defineConfig({
     logo: 'https://docs.pmnd.rs/zustand.ico',
     prefersColor: { default: 'auto' },
     socialLinks: {
-      github: 'https://github.com/youngjuning/youngjuning.js.org',
+      github: 'https://github.com/youngjuning/zustand.js.org',
       twitter: 'https://twitter.com/luozhu2021'
     },
     hd: { rules: [] },

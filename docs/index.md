@@ -6,8 +6,8 @@ hero:
   title: Zustand
   description: 一个小型、快速、可扩展的基本状态管理解决方案
   actions:
-    - text: Hello
-      link: /
+    - text: 开始
+      link: /getting-started
     - text: World
       link: /
 features:
