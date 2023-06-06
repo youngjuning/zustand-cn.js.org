@@ -98,7 +98,7 @@ normalInc: () =>
 
 这是非常长的！让我们探索一些替代方案，让你的生活更轻松。
 
-## 使用 Immer
+### 使用 Immer
 
 许多人使用 [Immer](https://github.com/immerjs/immer) 更新嵌套值。无论是在 React、Redux 还是当然的 Zustand 中，都可以随时使用 Immer 来更新嵌套状态！您可以使用 Immer 来缩短深度嵌套对象的状态更新。让我们看一个例子：
 
