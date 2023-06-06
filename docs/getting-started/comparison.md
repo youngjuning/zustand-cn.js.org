@@ -289,3 +289,168 @@ const Component = () => {
   // ...
 }
 ```
+
+## Jotai
+
+### 状态模型
+
+Zustand 和 Jotai 之间有两个主要的区别。首先，Zustand 是一个单一的 Store，而 Jotai 由可以组合在一起的原子组成。其次，Zustand Store 是一个外部 Store，使其更适合需要在 React 之外访问的情况。
+
+**Zustand**
+
+```tsx | pure
+import { create } from 'zustand'
+
+type State = {
+  count: number
+}
+
+type Actions = {
+  updateCount: (
+    countCallback: (count: State['count']) => State['count']
+  ) => void
+}
+
+const useCountStore = create<State & Actions>((set) => ({
+  count: 0,
+  updateCount: (countCallback) =>
+    set(state => ({ count: countCallback(state.count) })),
+}))
+```
+
+**Jotai**
+
+```tsx | pure
+import { atom } from 'jotai'
+
+const countAtom = atom<number>(0)
+```
+
+### 渲染优化
+
+Jotai 通过原子依赖实现渲染优化。然而，使用 Zustand 建议您通过使用选择器手动应用渲染优化。
+
+**Zustand**
+
+```tsx | pure
+import { create } from 'zustand'
+
+type State = {
+  count: number
+}
+
+type Actions = {
+  updateCount: (
+    countCallback: (count: State['count']) => State['count']
+  ) => void
+}
+
+const useCountStore = create<State & Actions>((set) => ({
+  count: 0,
+  updateCount: (countCallback) =>
+    set((state) => ({ count: countCallback(state.count) })),
+}))
+
+const Component = () => {
+  const count = useCountStore((state) => state.count)
+  const updateCount = useCountStore((state) => state.updateCount)
+  // ...
+}
+```
+
+**Jotai**
+
+```tsx | pure
+import { atom, useAtom } from 'jotai'
+
+const countAtom = atom<number>(0)
+
+const Component = () => {
+  const [count, updateCount] = useAtom(countAtom)
+  // ...
+}
+```
+
+## Recoil
+
+### 状态模型
+
+Zustand 和 Recoil 之间的区别类似于 Zustand 和 Jotai 之间的区别。Recoil 依赖于原子字符串键，而不是原子对象引用标识。此外，Recoil 需要使用 context provider 包装您的应用程序。
+
+**Zustand**
+
+```tsx | pure
+import { create } from 'zustand'
+
+type State = {
+  count: number
+}
+
+type Actions = {
+  setCount: (countCallback: (count: State['count']) => State['count']) => void
+}
+
+const useCountStore = create<State & Actions>((set) => ({
+  count: 0,
+  setCount: (countCallback) =>
+    set((state) => ({ count: countCallback(state.count) })),
+}))
+```
+
+**Recoil**
+
+```tsx | pure
+import { atom } from 'recoil'
+
+const count = atom({
+  key: 'count',
+  default: 0,
+})
+```
+
+### 渲染优化
+
+与之前的优化比较类似，Recoil 通过原子依赖进行渲染优化。而对于 Zustand，则建议您使用选择器手动应用渲染优化。
+
+**Zustand**
+
+```tsx | pure
+import { create } from 'zustand'
+
+type State = {
+  count: number
+}
+
+type Actions = {
+  setCount: (countCallback: (count: State['count']) => State['count']) => void
+}
+
+const useCountStore = create<State & Actions>((set) => ({
+  count: 0,
+  setCount: (countCallback) =>
+    set((state) => ({ count: countCallback(state.count) })),
+}))
+
+const Component = () => {
+  const count = useCountStore((state) => state.count)
+  const setCount = useCountStore((state) => state.setCount)
+  // ...
+}
+```
+
+**Recoil**
+
+```tsx | pure
+import { atom, useRecoilState } from 'recoil'
+
+const countAtom = atom({
+  key: 'count',
+  default: 0,
+})
+
+const Component = () => {
+  const [count, setCount] = useRecoilState(countAtom)
+  // ...
+}
+
+```
