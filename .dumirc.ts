@@ -18,8 +18,7 @@ export default defineConfig({
     '@c-primary': '#e5743f',
   },
   analytics: {
-    // TODO 配置 Google Analytics 代码
-    // ga_v2: '',
+    ga_v2: 'G-6LFJYQB43N',
   },
   sitemap: {
     hostname: 'https://zustand.js.org',
