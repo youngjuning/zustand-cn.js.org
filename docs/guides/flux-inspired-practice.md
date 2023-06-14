@@ -56,4 +56,22 @@ import { redux } from 'zustand/middleware'
 const useReduxStore = create(redux(reducer, initialState))
 ```
 
-更新 store 的另一种方法是通过包装状态函数的函数。这些函数也可以处理操作的副作用。例如，使用 HTTP 调用。要以非响应式方式使用 Zustand，请参阅[自述文件](https://github.com/pmndrs/zustand#readingwriting-state-and-reacting-to-changes-outside-of-components)。
+更新 store 的另一种方法是通过包装状态函数的函数。这些函数也可以处理操作的副作用。例如，使用 HTTP 调用。要以非响应式方式使用 Zustand：
+
+```ts
+const useDogStore = create(() => ({ paw: true, snout: true, fur: true }))
+
+// Getting non-reactive fresh state
+const paw = useDogStore.getState().paw
+// Listening to all changes, fires synchronously on every change
+const unsub1 = useDogStore.subscribe(console.log)
+// Updating state, will trigger listeners
+useDogStore.setState({ paw: false })
+// Unsubscribe listeners
+unsub1()
+
+// You can of course use the hook as you always would
+const Component = () => {
+  const paw = useDogStore((state) => state.paw)
+  ...
+```
