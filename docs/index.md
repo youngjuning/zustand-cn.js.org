@@ -7,7 +7,7 @@ hero:
   description: 一个小型、快速、可扩展的基本状态管理解决方案
   actions:
     - text: 开始
-      link: /getting-started/updating-state
+      link: /getting-started/introduction
     - text: 指南
       link: /guides/updating-state
 features:

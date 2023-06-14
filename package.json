@@ -1,7 +1,7 @@
 {
-  "name": "dumi-site-template",
+  "name": "zustand-cn",
   "version": "0.0.1",
-  "description": "A static site based on dumi",
+  "description": "使用简化的通量原理的小型、快速和可扩展的 bearbones 状态管理解决方案。有一个基于钩子的舒适 API，不是样板式的或固执己见的。",
   "scripts": {
     "postinstall": "patch-package",
     "start": "npm run dev",
