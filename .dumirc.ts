@@ -12,7 +12,7 @@ export default defineConfig({
       twitter: 'https://twitter.com/luozhu2021'
     },
     hd: { rules: [] },
-    footer: 'Made with ❤️ by <a href="https://youngjuning.js.org" target="_blank" nofollow>@洛竹</a>'
+    footer: 'Made with ❤️ by <a href="https://youngjuning.js.org" target="_blank">洛竹</a><br/><a href="/sitemap.xml" target="_blank">站点地图</a> | <a href="https://github.com/zizhu-docs" target="_blank">紫竹翻译计划</a> | <a href="https://t.zsxq.com/0fDyODCQs" target="_blank">紫竹赚美刀</a>',
   },
   theme: {
     '@c-primary': '#e5743f',
