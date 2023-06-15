@@ -8,7 +8,7 @@
 
 ## 安装
 
-```bash
+```sh
 # NPM
 npm install zustand
 
