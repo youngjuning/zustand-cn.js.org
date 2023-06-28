@@ -17,6 +17,7 @@ export default defineConfig({
   theme: {
     '@c-primary': '#e5743f',
   },
+  publicPath: '/',
   analytics: {
     ga_v2: 'G-6LFJYQB43N',
   },
