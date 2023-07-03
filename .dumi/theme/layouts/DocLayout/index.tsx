@@ -94,25 +94,14 @@ const DocLayout: FC = () => {
             </center>
           </div>
           {outlet}
-          {pathname === '/' &&
-            <Adsense
-              className="adsbygoogle"
-              style={{ display: "block" }}
-              data-ad-client="ca-pub-7029815294762181"
-              data-ad-slot="2148104191"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            />
-          }
-          {pathname !== '/' &&
-            <Adsense
-              className="adsbygoogle"
-              style={{ display: "block" }}
-              data-ad-format="autorelaxed"
-              data-ad-client="ca-pub-7029815294762181"
-              data-ad-slot="4521975302"
-            />
-          }
+          <Adsense
+            className="adsbygoogle"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-7029815294762181"
+            data-ad-slot="2148104191"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          />
           <Footer />
         </Content>
         {fm.toc === 'content' && (
