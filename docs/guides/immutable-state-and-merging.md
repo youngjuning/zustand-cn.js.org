@@ -1,6 +1,6 @@
 ---
 order: 1
-title: 不可变状态和合并
+title: 不可变状态和合并 - Zustand
 description: 就像在 React 中使用的 useState 一样，我们需要以不可变的方式更新状态。
 keywords: [Zustand, React, Hooks, 状态管理, Store]
 ---

@@ -1,6 +1,6 @@
 ---
 order: 1
-title: 比较
+title: 比较 - Zustand
 description: Zustand 与类似库相比如何？
 keywords: [Zustand, React, Hooks, 状态管理, Store, Redux, Mobx]
 ---

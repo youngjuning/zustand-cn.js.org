@@ -1,6 +1,6 @@
 ---
 order: 4
-title: 无 store 的 action
+title: 无 store 的 action - Zustand
 description: 建议的用法是将操作和状态放置在 store 内。
 keywords: [Zustand, React, Hooks, 状态管理, Store]
 ---

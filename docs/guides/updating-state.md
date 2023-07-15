@@ -1,6 +1,6 @@
 ---
 order: 0
-title: 状态更新
+title: 状态更新 - Zustand
 description: 使用 Zustand 更新状态非常简单！使用提供的 set 函数调用新状态，它将与 Store 中的现有状态进行浅合并。
 keywords: [Zustand, React, Hooks, 状态管理, Store]
 nav:

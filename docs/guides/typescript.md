@@ -1,6 +1,6 @@
 ---
 order: 5
-title: Typescript 指南
+title: Typescript 指南 - Zustand
 description: TypeScript Guide
 keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
 ---

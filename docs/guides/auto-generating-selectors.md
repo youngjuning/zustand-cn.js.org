@@ -1,6 +1,6 @@
 ---
 order: 3
-title: 自动生成 Selector
+title: 自动生成 Selector - Zustand
 description: 我们建议在使用 store 的属性或操作时使用 selector。
 keywords: [Zustand, React, Hooks, 状态管理, Store]
 ---

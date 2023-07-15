@@ -1,6 +1,6 @@
 ---
 order: 2
-title: Flux 模式实践
+title: Flux 模式实践 - Zustand
 description: 尽管 zustand 是一个无偏见的库，这里是我们推荐的一些模式。
 keywords: [Zustand, React, Hooks, 状态管理, Store]
 ---

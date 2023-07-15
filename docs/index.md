@@ -1,5 +1,5 @@
 ---
-title: 一个小型、快速、可扩展的基本状态管理解决方案
+title: 一个小型、快速、可扩展的基本状态管理解决方案 - Zustand
 description: 一个小型、快速、可扩展的基本状态管理解决方案。Zustand 有一个基于 hooks 的舒适 API。它不是样板文件，也没有倾向，但有足够的约定来明确和流量一样。
 keywords: [Zustand, React, Hooks, 状态管理, Store]
 hero:
