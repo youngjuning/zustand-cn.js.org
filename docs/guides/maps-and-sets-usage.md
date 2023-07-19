@@ -1,6 +1,6 @@
 ---
 order: 8
-title: Map and Set 示例 - Zustand
+title: Map and Set 示例
 description: Map and Set 示例
 keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
 ---

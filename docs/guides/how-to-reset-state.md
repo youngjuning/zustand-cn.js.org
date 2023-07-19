@@ -1,6 +1,6 @@
 ---
 order: 9
-title: 如何重置状态 - Zustand
+title: 如何重置状态
 description: 如何重置状态
 keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
 ---

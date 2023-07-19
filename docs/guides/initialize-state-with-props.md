@@ -1,6 +1,6 @@
 ---
 order: 10
-title: 使用 props 初始化状态。 - Zustand
+title: 使用 props 初始化状态。
 description: 使用 props 初始化状态。
 keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
 ---

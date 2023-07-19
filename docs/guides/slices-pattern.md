@@ -1,6 +1,6 @@
 ---
 order: 11
-title: Slice 模式 - Zustand
+title: Slice 模式
 description: Slice 模式
 keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
 ---

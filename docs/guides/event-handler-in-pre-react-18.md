@@ -1,6 +1,6 @@
 ---
 order: 7
-title: 在 React 18 之前，在 React 事件处理程序之外调用操作。 - Zustand
+title: 在 React 18 之前，在 React 事件处理程序之外调用操作。
 description: 在 React 18 之前，在 React 事件处理程序之外调用操作。
 keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
 ---
