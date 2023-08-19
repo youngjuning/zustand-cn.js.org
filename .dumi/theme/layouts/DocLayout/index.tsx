@@ -89,7 +89,7 @@ const DocLayout: FC = () => {
         {showSidebar && <Sidebar />}
         <Content>
           {outlet}
-          {outlet && pathname === '/' &&
+          {pathname === '/' &&
             <Adsense
               className="adsbygoogle"
               style={{ display: "block" }}
@@ -98,7 +98,7 @@ const DocLayout: FC = () => {
               data-ad-slot="6412968057"
             />
           }
-          {outlet && pathname !== '/' &&
+          {pathname !== '/' &&
             <Adsense
               className="adsbygoogle"
               style={{ display: "block" }}
