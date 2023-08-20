@@ -89,24 +89,13 @@ const DocLayout: FC = () => {
         {showSidebar && <Sidebar />}
         <Content>
           {outlet}
-          {pathname === '/' &&
-            <Adsense
-              className="adsbygoogle"
-              style={{ display: "block" }}
-              data-ad-format="autorelaxed"
-              data-ad-client="ca-pub-7029815294762181"
-              data-ad-slot="6412968057"
-            />
-          }
-          {pathname !== '/' &&
-            <Adsense
-              className="adsbygoogle"
-              style={{ display: "block" }}
-              data-ad-format="autorelaxed"
-              data-ad-client="ca-pub-7029815294762181"
-              data-ad-slot="4521975302"
-            />
-          }
+          <Adsense
+            className="adsbygoogle"
+            style={{ display: "block" }}
+            data-ad-format="autorelaxed"
+            data-ad-client="ca-pub-7029815294762181"
+            data-ad-slot="6412968057"
+          />
           <Footer />
         </Content>
         {fm.toc === 'content' && (
