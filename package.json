@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "使用简化的通量原理的小型、快速和可扩展的 bearbones 状态管理解决方案。有一个基于钩子的舒适 API，不是样板式的或固执己见的。",
   "scripts": {
-    "postinstall": "patch-package",
     "start": "npm run dev",
     "dev": "dumi dev",
     "build": "dumi build",
@@ -14,8 +13,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "dumi": "2.2.1",
-    "patch-package": "^7.0.0"
+    "dumi": "2.2.7"
   },
   "dependencies": {
     "antd": "^5.5.1",
