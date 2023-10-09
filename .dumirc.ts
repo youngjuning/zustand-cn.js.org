@@ -27,6 +27,13 @@ export default defineConfig({
   },
   hash: true,
   exportStatic: {},
+  ...(process.env.NODE_ENV === 'development' ? {} : { ssr: {} }),
+  metas: [
+    {
+      name: 'monetag',
+      content: '7b2a7831ac5964573bde2e021b7001f6',
+    },
+  ],
   headScripts: [
     {src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7029815294762181', async: true, crossorigin: 'anonymous'},
   ]
