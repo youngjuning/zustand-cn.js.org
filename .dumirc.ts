@@ -36,5 +36,8 @@ export default defineConfig({
   ],
   headScripts: [
     {src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7029815294762181', async: true, crossorigin: 'anonymous'},
+  ],
+  scripts: [
+    `(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('autchoog.net',6444996,document.createElement('script'))`
   ]
 });
