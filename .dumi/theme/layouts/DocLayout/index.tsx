@@ -17,6 +17,7 @@ import Footer from 'dumi/theme-default/slots/Footer';
 import Header from 'dumi/theme-default/slots/Header';
 import Hero from 'dumi/theme-default/slots/Hero';
 import Sidebar from '../../slots/Sidebar';
+import Adsense from '../../slots/Adsense';
 import Toc from 'dumi/theme-default/slots/Toc';
 import React, { useEffect, useState, type FC } from 'react';
 import './index.less';
@@ -94,6 +95,14 @@ const DocLayout: FC = () => {
           <article>
             {outlet}
           </article>
+          <Adsense
+            className="adsbygoogle"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-7029815294762181"
+            data-ad-slot="6412968057"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          />
           <ContentFooter />
           <Footer />
         </Content>
