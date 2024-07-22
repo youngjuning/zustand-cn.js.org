@@ -36,6 +36,7 @@ const useCountStore = create<State & Actions>((set) => ({
 }))
 ```
 
+---
 
 ```tsx | pure
 import { create } from 'zustand'
