@@ -95,14 +95,17 @@ const DocLayout: FC = () => {
           <article>
             {outlet}
           </article>
-          <Adsense
-            className="adsbygoogle"
-            style={{ display: "block" }}
-            data-ad-client="ca-pub-7029815294762181"
-            data-ad-slot="6412968057"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          />
+          {
+            window.adsbygoogle && 
+            <Adsense
+              className="adsbygoogle"
+              style={{ display: "block" }}
+              data-ad-client="ca-pub-7029815294762181"
+              data-ad-slot="6412968057"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            />
+          }
           <ContentFooter />
           <Footer />
         </Content>
