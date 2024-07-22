@@ -28,14 +28,17 @@ const Sidebar: FC = () => {
           ))}
         </dl>
       ))}
-      <Adsense
-        className="adsbygoogle"
-        style={{display: "block" }}
-        data-ad-client="ca-pub-7029815294762181"
-        data-ad-slot="9225510179"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
+      {
+        window.adsbygoogle &&
+        <Adsense
+          className="adsbygoogle"
+          style={{display: "block" }}
+          data-ad-client="ca-pub-7029815294762181"
+          data-ad-slot="9225510179"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        />
+      }
     </div>
   );
 };
