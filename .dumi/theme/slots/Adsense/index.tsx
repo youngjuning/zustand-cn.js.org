@@ -7,11 +7,16 @@ const Adsense: React.FC<any> = (props) => {
   }, [])
 
   return (
-    <div style={{ width: "100%", margin: "16px 0"}}>
-      <center>
-        <ins {...props} />
-      </center>
-    </div>
+    <>
+      {
+        window.adsbygoogle && 
+        <div style={{ width: "100%", margin: "16px 0"}}>
+          <center>
+            <ins {...props} />
+          </center>
+        </div>
+      }
+    </>
   );
 }
 
