@@ -403,7 +403,7 @@ const useBoundStore = create<BearSlice & FishSlice>()((...a) => ({
 
 关于 slices 模式的详细解释可以[在这里找到](/guides/slices-pattern)。如果您有一些中间件，请用 `StateCreator<MyState，Mutators，[]，MySlice>` 替换 `StateCreator<MyState，[]，[]，MySlice>`。例如，如果您正在使用 devtools，则应为 `StateCreator<MyState，[["zustand/devtools"，never]]，[]，MySlice>`。
 
-## vanilla stores 的有界 useStore hook
+## 原生 stores 的有界 useStore hook
 
 ```ts
 import { useStore } from 'zustand'

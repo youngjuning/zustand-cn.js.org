@@ -48,7 +48,7 @@ const dispatch = useGrumpyStore((state) => state.dispatch)
 dispatch({ type: types.increase, by: 2 })
 ```
 
-你还可以使用我们的 redux 中间件。它会连接你的主 reducer，设置初始状态，并将一个 dispatch 函数添加到状态本身和 vanilla api 中。
+你还可以使用我们的 redux 中间件。它会连接你的主 reducer，设置初始状态，并将一个 dispatch 函数添加到状态本身和原生 api 中。
 
 ```ts
 import { redux } from 'zustand/middleware'
