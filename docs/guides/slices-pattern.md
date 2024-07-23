@@ -11,7 +11,7 @@ keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
 
 您可以将主 store 分成更小的个体 store，以实现模块化。这在 Zustand 中非常简单！
 
-第一个个体 store：
+第一个 store：
 
 ```ts
 export const createFishSlice = (set) => ({
@@ -20,7 +20,7 @@ export const createFishSlice = (set) => ({
 })
 ```
 
-另一个个体 store：
+另一个 store：
 
 ```ts
 export const createBearSlice = (set) => ({
