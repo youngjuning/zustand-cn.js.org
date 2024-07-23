@@ -8,7 +8,7 @@ nav:
   order: 0
 ---
 
-使用简化的通量原理的小型、快速和可扩展的 bearbones 状态管理解决方案。有一个基于钩子的舒适 API，不是样板式的或固执己见的。
+一个小巧、快速、可扩展的熊骨状态管理解决方案。Zustand 有一个基于 Hooks 的易用的 API。它既没有模板化，也没有主观臆断，但却有足够的约定俗成的明确性和可变性。
 
 不要因为它可爱而忽视它。它有很多爪子，很多时间花在处理常见的陷阱上，比如可怕的[僵尸孩子问题](https://react-redux.js.org/api/hooks#stale-props-and-zombie-children)、[反应并发](https://github.com/bvaughn/rfcs/blob/useMutableSource/text/0000-use-mutable-source.md)和混合渲染器之间的[上下文丢失](https://github.com/facebook/react/issues/13332)。它可能是 React 空间中的唯一状态管理器，可以正确处理所有这些问题。
 
@@ -35,6 +35,7 @@ const useStore = create((set) => ({
   bears: 0,
   increasePopulation: () => set((state) => ({ bears: state.bears + 1 })),
   removeAllBears: () => set({ bears: 0 }),
+  updateBears: (newBears) => set({ bears: newBears }),
 }))
 ```
 
@@ -53,6 +54,7 @@ const useStore = create((set) => ({
   bears: 0,
   increasePopulation: () => set((state) => ({ bears: state.bears + 1 })),
   removeAllBears: () => set({ bears: 0 }),
+  updateBears: (newBears) => set({ bears: newBears }),
 }))
 
 function BearCounter() {
