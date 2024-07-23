@@ -101,6 +101,8 @@ const countReducer = (state: State, action: Action) => {
 const countStore = createStore(countReducer)
 ```
 
+---
+
 ```tsx | pure
 import { createSlice, configureStore } from '@reduxjs/toolkit'
 
