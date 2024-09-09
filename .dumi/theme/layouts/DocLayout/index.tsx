@@ -95,11 +95,9 @@ const DocLayout: FC = () => {
           <article>{outlet}</article>
           <Adsense
             className="adsbygoogle"
-            style={{ display: 'block' }}
-            data-ad-client="ca-pub-4963807055498900"
-            data-ad-host="ca-host-pub-1012064661720050"
-            data-override-format="true"
-            data-page-url="https://pantip.com"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-7029815294762181"
+            data-ad-slot="6412968057"
             data-ad-format="auto"
             data-full-width-responsive="true"
           />
