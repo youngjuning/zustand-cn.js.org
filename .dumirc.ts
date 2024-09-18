@@ -13,7 +13,7 @@ export default defineConfig({
       twitter: 'https://twitter.com/luozhu2021'
     },
     hd: { rules: [] },
-    footer: 'Made with ❤️ by <a href="https://github.com/zizhuspot" target="_blank">紫竹光点计划</a>'
+    footer: 'Made with ❤️ by <a href="https://github.com/youngjuning" target="_blank">紫升</a>'
   },
   theme: {
     '@c-primary': '#e5743f',
