@@ -27,8 +27,7 @@ export default defineConfig({
   },
   hash: true,
   exportStatic: {},
-  ...(process.env.NODE_ENV === 'development' ? {} : { ssr: {} }),
-  headScripts: [
-    {src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7029815294762181', async: true, crossorigin: 'anonymous'},
+  headScripts: process.env.NODE_ENV === 'development' ? [] : [
+    { src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', async: true, crossorigin: 'anonymous' }
   ],
 });
