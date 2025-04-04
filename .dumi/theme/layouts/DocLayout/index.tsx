@@ -10,12 +10,13 @@ import {
   useSidebarData,
   useSiteData,
 } from 'dumi';
+import Giscus from '@giscus/react';
 import Content from 'dumi/theme-default/slots/Content';
 import ContentFooter from 'dumi/theme-default/slots/ContentFooter';
 import Features from 'dumi/theme-default/slots/Features';
 import Footer from 'dumi/theme-default/slots/Footer';
-import Header from 'dumi/theme-default/slots/Header';
-import Hero from 'dumi/theme-default/slots/Hero';
+import Header from '../../slots/Header';
+import Hero from '../../slots/Hero';
 import Sidebar from '../../slots/Sidebar';
 import Adsense from '../../slots/Adsense';
 import Toc from 'dumi/theme-default/slots/Toc';
@@ -92,17 +93,44 @@ const DocLayout: FC = () => {
       <main>
         {showSidebar && <Sidebar />}
         <Content>
-          <article>{outlet}</article>
-          <Adsense
-            className="adsbygoogle"
-            style={{ display: "block" }}
-            data-ad-client="ca-pub-5641491107630454"
-            data-ad-slot="5596588097"
-            data-page-url="https://www.nablepart.com"
-            data-override-format="true"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          />
+          <article>
+            <Adsense
+              className="adsbygoogle"
+              style={{ display: 'block', textAlign: 'center' }}
+              data-ad-layout="in-article"
+              data-ad-format="fluid"
+              data-ad-client="ca-pub-5641491107630454"
+              data-ad-slot="1330632922"
+              data-page-url="https://www.nablepart.com"
+            />
+            {outlet}
+            {pathname !== '/' && (
+              <Adsense
+                className="adsbygoogle"
+                style={{ display: 'block' }}
+                data-ad-client="ca-pub-5641491107630454"
+                data-ad-slot="5596588097"
+                data-page-url="https://www.nablepart.com"
+                data-override-format="true"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              />
+            )}
+            <Giscus
+              id="comments"
+              repo="youngjuning/zustand-cn.js.org"
+              repoId="R_kgDOJn0tVQ"
+              category="General"
+              categoryId="DIC_kwDOJn0tVc4CoycG"
+              mapping="title"
+              term="Welcome to zustand-cn.js.org!"
+              reactionsEnabled="1"
+              emitMetadata="0"
+              inputPosition="top"
+              theme="preferred_color_scheme"
+              lang="zh-CN"
+            />
+          </article>
           <ContentFooter />
           <Footer />
         </Content>

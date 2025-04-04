@@ -16,6 +16,7 @@
     "dumi": "2.2.7"
   },
   "dependencies": {
+    "@giscus/react": "^3.1.0",
     "antd": "^5.5.1",
     "zustand": "^4.3.8"
   }
