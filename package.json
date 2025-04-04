@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "dumi": "2.2.7"
+    "dumi": "latest"
   },
   "dependencies": {
     "@giscus/react": "^3.1.0",
