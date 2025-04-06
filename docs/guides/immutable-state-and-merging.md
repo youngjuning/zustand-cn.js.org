@@ -2,7 +2,8 @@
 order: 1
 title: 不可变状态和合并
 description: 就像在 React 中使用的 useState 一样，我们需要以不可变的方式更新状态。
-keywords: [Zustand, React, Hooks, 状态管理, Store]
+keywords: [zustand, React, Hooks, 状态管理, Store]
+toc: content
 ---
 
 就像 React 的 useState 一样，我们需要以不可变的方式更新状态。

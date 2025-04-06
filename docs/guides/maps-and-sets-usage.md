@@ -2,7 +2,8 @@
 order: 8
 title: Map and Set 示例
 description: Map and Set 示例
-keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
+keywords: [zustand, React, Hooks, 状态管理, Store, Typescript]
+toc: content
 ---
 
 你需要将 `Maps` 和 `Sets` 包装在一个对象中。当你想要它的更新被反映出来（例如在 React 中），你需要通过调用它的 `setState` 方法来实现：

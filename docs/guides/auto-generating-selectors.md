@@ -2,7 +2,8 @@
 order: 3
 title: 自动生成 Selector
 description: 我们建议在使用 store 的属性或操作时使用 selector。
-keywords: [Zustand, React, Hooks, 状态管理, Store]
+keywords: [zustand, React, Hooks, 状态管理, Store]
+toc: content
 ---
 
 我们建议在使用 store 的属性或操作时使用 selector。您可以像这样访问 store 中的值：

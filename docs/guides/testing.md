@@ -2,7 +2,8 @@
 order: 6
 title: 测试
 description: Testing
-keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
+keywords: [zustand, React, Hooks, 状态管理, Store, Typescript]
+toc: content
 ---
 
 ## 在 react-dom 中在测试期间重置状态。

@@ -2,7 +2,8 @@
 order: 10
 title: 使用 props 初始化状态。
 description: 使用 props 初始化状态。
-keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
+keywords: [zustand, React, Hooks, 状态管理, Store, Typescript]
+toc: content
 ---
 
 在需要依赖注入的情况下，比如一个 store 需要用来自组件的 props 进行初始化，建议使用带有 `React.context` 的原始 store。

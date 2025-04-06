@@ -2,7 +2,8 @@
 order: 11
 title: Slice 模式
 description: Slice 模式
-keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
+keywords: [zustand, React, Hooks, 状态管理, Store, Typescript]
+toc: content
 ---
 
 ## 将 store 分割成更小的 store

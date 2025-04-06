@@ -2,7 +2,8 @@
 order: 5
 title: Typescript 指南
 description: TypeScript Guide
-keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
+keywords: [zustand, React, Hooks, 状态管理, Store, Typescript]
+toc: content
 ---
 
 ## 基础使用

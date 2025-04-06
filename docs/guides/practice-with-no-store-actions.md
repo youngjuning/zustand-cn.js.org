@@ -2,7 +2,8 @@
 order: 4
 title: 无 store 的 action
 description: 建议的用法是将操作和状态放置在 store 内。
-keywords: [Zustand, React, Hooks, 状态管理, Store]
+keywords: [zustand, React, Hooks, 状态管理, Store]
+toc: content
 ---
 
 推荐的用法是将 action 和状态置于 store 中（让您的 action 与 state 放在一起）。

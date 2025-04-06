@@ -3,6 +3,7 @@ order: 8
 title: 使用 URL 哈希连接到状态。
 description: 使用 URL 哈希连接到状态。
 keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
+toc: content
 ---
 
 ## 状态与 URL 哈希相连。

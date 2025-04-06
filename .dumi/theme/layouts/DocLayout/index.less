@@ -24,6 +24,23 @@ body {
 
   .dumi-default-sidebar {
     width: 216px;
+    padding-inline-end: 24px;
+  }
+
+  .zanzhushang {
+    position: relative;
+    img {
+      display: block;
+    }
+    &::after {
+      position: absolute;
+      content: "赞助商";
+      font-size: 12px;
+      font-weight: 500;
+      color: @c-text-note;
+      right: 4px;
+      bottom: 4px;
+    }
   }
 
   #busuanzi_value_page_pv, #busuanzi_value_site_uv, #busuanzi_value_site_pv {

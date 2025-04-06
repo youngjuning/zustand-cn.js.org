@@ -2,7 +2,8 @@
 order: 2
 title: Flux 模式实践
 description: 尽管 zustand 是一个无偏见的库，这里是我们推荐的一些模式。
-keywords: [Zustand, React, Hooks, 状态管理, Store]
+keywords: [zustand, React, Hooks, 状态管理, Store]
+toc: content
 ---
 
 尽管 zustand 是一个没有偏见的库，但我们推荐以下一些模式：

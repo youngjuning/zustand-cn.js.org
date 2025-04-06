@@ -2,10 +2,11 @@
 order: 0
 title: 介绍
 description: 如何使用 Zustand
-keywords: [Zustand, React, Hooks, 状态管理, Store]
+keywords: [zustand, React, Hooks, 状态管理, Store]
 nav:
   title: 开始
   order: 0
+toc: content
 ---
 
 一个小巧、快速、可扩展的熊骨状态管理解决方案。Zustand 有一个基于 Hooks 的易用的 API。它既没有模板化，也没有主观臆断，但却有足够的约定俗成的明确性和可变性。

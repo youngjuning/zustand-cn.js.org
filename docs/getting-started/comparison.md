@@ -2,7 +2,8 @@
 order: 1
 title: 比较
 description: Zustand 与类似库相比如何？
-keywords: [Zustand, React, Hooks, 状态管理, Store, Redux, Mobx]
+keywords: [zustand, React, Hooks, 状态管理, Store, Redux, Mobx]
+toc: content
 ---
 
 Zustand 是 React 的众多状态管理库之一。在本页中，我们将讨论 Zustand 与一些其他库（包括 Redux、Valtio、Jotai 和 Recoil）的比较。

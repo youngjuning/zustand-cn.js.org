@@ -2,7 +2,8 @@
 order: 9
 title: 如何重置状态
 description: 如何重置状态
-keywords: [Zustand, React, Hooks, 状态管理, Store, Typescript]
+keywords: [zustand, React, Hooks, 状态管理, Store, Typescript]
+toc: content
 ---
 
 以下模式可用于将状态重置为其初始值。

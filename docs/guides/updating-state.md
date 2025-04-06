@@ -6,6 +6,7 @@ keywords: [Zustand, React, Hooks, 状态管理, Store]
 nav:
   title: 指南
   order: 1
+toc: content
 ---
 
 ## 扁平化更新
