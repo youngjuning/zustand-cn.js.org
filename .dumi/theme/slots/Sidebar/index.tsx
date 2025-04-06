@@ -14,7 +14,7 @@ const Sidebar: FC = () => {
     <div className="dumi-default-sidebar">
       <div className="zanzhushang">
         <a href="https://immersivetranslate.com/?via=zisheng" target='_blank' rel="noopener noreferrer">
-          <img src="/images/immersivetranslate.png" width={"100%"} alt="赞助商"></img>
+          <img src="https://www.zisheng.pro/images/immersivetranslate.png" width={"100%"} alt="赞助商"></img>
         </a>
       </div>
       {sidebar.map((item, i) => (
