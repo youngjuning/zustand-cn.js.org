@@ -96,26 +96,23 @@ const DocLayout: FC = () => {
           <article>
             <Adsense
               className="adsbygoogle"
-              style={{ display: 'block', textAlign: 'center' }}
-              data-ad-layout="in-article"
-              data-ad-format="fluid"
+              style={{ display: 'block' }}
               data-ad-client="ca-pub-5641491107630454"
-              data-ad-slot="1330632922"
+              data-ad-slot="6927942793"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
               data-page-url="https://www.nablepart.com"
             />
             {outlet}
-            {pathname !== '/' && (
-              <Adsense
-                className="adsbygoogle"
-                style={{ display: 'block' }}
-                data-ad-client="ca-pub-5641491107630454"
-                data-ad-slot="5596588097"
-                data-page-url="https://www.nablepart.com"
-                data-override-format="true"
-                data-ad-format="auto"
-                data-full-width-responsive="true"
-              />
-            )}
+            <Adsense
+              className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-5641491107630454"
+              data-ad-slot="3949591511"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+              data-page-url="https://www.nablepart.com"
+            />
             <Giscus
               id="comments"
               repo="youngjuning/zustand-cn.js.org"
