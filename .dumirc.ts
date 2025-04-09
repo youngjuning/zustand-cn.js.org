@@ -42,6 +42,7 @@ export default defineConfig({
     {
       src: '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
       async: true,
+      crossorigin: 'anonymous',
     },
   ],
 });
