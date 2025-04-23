@@ -44,10 +44,8 @@ const Sidebar: FC = () => {
       <Adsense
         className="adsbygoogle"
         style={{ display: 'block' }}
-        data-ad-client="ca-pub-5641491107630454"
-        data-ad-slot="1206633556"
-        data-page-url="https://www.nablepart.com"
-        data-override-format="true"
+        data-ad-client="ca-pub-7029815294762181"
+        data-ad-slot="6172611356"
         data-ad-format="auto"
         data-full-width-responsive="true"
       />

@@ -97,21 +97,19 @@ const DocLayout: FC = () => {
             <Adsense
               className="adsbygoogle"
               style={{ display: 'block' }}
-              data-ad-client="ca-pub-5641491107630454"
-              data-ad-slot="6927942793"
+              data-ad-client="ca-pub-7029815294762181"
+              data-ad-slot="4396495251"
               data-ad-format="auto"
               data-full-width-responsive="true"
-              data-page-url="https://www.nablepart.com"
             />
             {outlet}
             <Adsense
               className="adsbygoogle"
               style={{ display: 'block' }}
-              data-ad-client="ca-pub-5641491107630454"
-              data-ad-slot="3949591511"
+              data-ad-client="ca-pub-7029815294762181"
+              data-ad-slot="7625293829"
               data-ad-format="auto"
               data-full-width-responsive="true"
-              data-page-url="https://www.nablepart.com"
             />
             <Giscus
               id="comments"
