@@ -1,11 +1,11 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  favicons: ['https://docs.pmnd.rs/zustand.ico'],
+  favicons: ['/zustand.ico'],
   autoAlias: false,
   themeConfig: {
     name: 'Zustand',
-    logo: 'https://docs.pmnd.rs/zustand.ico',
+    logo: '/zustand.ico',
     prefersColor: { default: 'auto' },
     editLink:
       'https://github.com/youngjuning/zustand-cn.js.org/edit/main/{filename}',
