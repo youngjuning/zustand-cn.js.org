@@ -71,6 +71,8 @@ const DocLayout: FC = () => {
             <meta key={keyword} property="article:tag" content={keyword}></meta>
           ))}
         {hostname && <link rel="canonical" href={hostname + pathname} />}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7029815294762181" crossorigin="anonymous"></script>
+        <script async src="/busuanzi.pure.min.js" crossorigin="anonymous"></script>
       </Helmet>
       <Header />
       <Hero />
