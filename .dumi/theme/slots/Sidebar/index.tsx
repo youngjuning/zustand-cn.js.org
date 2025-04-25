@@ -41,6 +41,7 @@ const Sidebar: FC = () => {
           ))}
         </dl>
       ))}
+      {/* doc_side */}
       <Adsense
         className="adsbygoogle"
         style={{ display: 'block' }}
