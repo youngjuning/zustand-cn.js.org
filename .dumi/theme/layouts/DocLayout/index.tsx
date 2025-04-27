@@ -107,6 +107,15 @@ const DocLayout: FC = () => {
               data-full-width-responsive="true"
             />
             {outlet}
+            {/* doc_bottom */}
+            <Adsense
+              className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-7029815294762181"
+              data-ad-slot="7625293829"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            />
             <Giscus
               id="comments"
               repo="youngjuning/zustand-cn.js.org"
