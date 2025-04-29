@@ -9,6 +9,29 @@
   <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1742301937620.png" type="image/x-icon">
   <title>Boki H5 Gamelist</title>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7029815294762181" crossorigin="anonymous"></script>
+</head>
+<body>
+  <center>
+    <!-- game_play_top -->
+    <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-7029815294762181"
+    data-ad-slot="8461052712"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </center>
+  <div id="App" v-cloak>
+    <div class="play_game">
+      <iframe class="game" :src="`https://www.datinginfo.top/game/index.html?gameFileName=${gameFileName}/`"
+        frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <div class="posterBanner" ref='topAd' v-html='poster4'></div>
+    </div>
+
+    <img src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/imgs/Home Loan.png" class="back" @click="handleBackHome">
+  </div>
   <style>
     * {
       margin: 0;
@@ -156,34 +179,6 @@
       display: none;
     }
   </style>
-</head>
-<body>
-  <center>
-    <!-- game_play_top -->
-    <ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-7029815294762181"
-    data-ad-slot="8461052712"
-    data-ad-format="auto"
-    data-full-width-responsive="true"></ins>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </center>
-  <div id="App" v-cloak>
-    <div class="play_game">
-      <iframe class="game" :src="`https://www.datinginfo.top/game/index.html?gameFileName=${gameFileName}/`"
-        frameborder="0" scrolling="no" allowfullscreen></iframe>
-      <div class="posterBanner" ref='topAd' v-html='poster4'></div>
-    </div>
-
-    <img src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/imgs/Home Loan.png" class="back" @click="handleBackHome">
-    <!-- <div class="mask" v-if="mask">
-      <div class="poster" ref="poster" v-html="poster">11</div>
-      <div class="time" v-show="show">Ad will close in 0:0{{ totalTime }}</div>
-      <div class="shut" @click="close()" ref="down">Play</div>
-    </div> -->
-  </div>
 </body>
 <script src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/js/vue.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/js/axios.min.js"></script>
