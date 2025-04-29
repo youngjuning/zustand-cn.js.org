@@ -61,7 +61,7 @@ function Counter() {
   return (
     <Space size="large">
       <Badge count={count}>
-        <Image src="/zustand.ico" style={{ width: '60px', height: '60px' }} preview={false} />
+        <Image src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/favicon/zustand.ico" style={{ width: '60px', height: '60px' }} preview={false} />
       </Badge>
       <Button type="primary" onClick={inc}>one up</Button>
     </Space>
