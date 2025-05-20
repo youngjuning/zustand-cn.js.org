@@ -97,15 +97,6 @@ const DocLayout: FC = () => {
         {showSidebar && <Sidebar />}
         <Content>
           <article>
-            {/* doc_top */}
-            <Adsense
-              className="adsbygoogle"
-              style={{ display: 'block' }}
-              data-ad-client="ca-pub-7029815294762181"
-              data-ad-slot="4396495251"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            />
             {outlet}
             <Giscus
               id="comments"

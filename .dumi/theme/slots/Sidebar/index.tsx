@@ -13,11 +13,9 @@ const Sidebar: FC = () => {
 
   return (
     <div className="dumi-default-sidebar">
-      <div className="zanzhushang">
-        <a href="https://immersivetranslate.com/?via=zisheng" target='_blank' rel="noopener noreferrer">
-          <img src="https://www.zisheng.pro/images/immersivetranslate.png" width={"100%"} alt="赞助商"></img>
-        </a>
-      </div>
+      <a href="https://immersivetranslate.com/?via=zisheng" target='_blank' rel="noopener noreferrer">
+        <img src="https://www.zisheng.pro/images/immersivetranslate.png" width={"100%"} alt="赞助商"></img>
+      </a>
       {sidebar.map((item, i) => (
         <dl className="dumi-default-sidebar-group" key={String(i)}>
           {item.title && <dt>{item.title}</dt>}
@@ -41,15 +39,6 @@ const Sidebar: FC = () => {
           ))}
         </dl>
       ))}
-      {/* doc_side */}
-      <Adsense
-        className="adsbygoogle"
-        style={{ display: 'block' }}
-        data-ad-client="ca-pub-7029815294762181"
-        data-ad-slot="6172611356"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
     </div>
   );
 };
